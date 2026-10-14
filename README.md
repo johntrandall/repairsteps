@@ -1,6 +1,3 @@
-# repairsteps.johnrandall.com
+# repairsteps (retired)
 
-Static publish repo for [Tenant Repair Helper](https://github.com/Escobar-Luis/tenant-repair-helper), Brick City Builds 2026. GitHub Pages serves `main` at https://repairsteps.johnrandall.com/ (custom domain in `CNAME`).
-
-- `index.html` placeholder landing page.
-- `pitch-deck/` the Marp-rendered deck (`index.html`) and its PDF. Source lives in the app repo under `pitch-deck/`; rebuild there with `build.sh`, copy the HTML here as `pitch-deck/index.html`, commit, push.
+This was the interim GitHub Pages host for the Tenant Repair Helper pitch deck on 2026-10-14. The site now runs as a Cloudflare Worker deployed from the app repo ([Escobar-Luis/tenant-repair-helper](https://github.com/Escobar-Luis/tenant-repair-helper)), which serves the deck at https://repairsteps.johnrandall.com/pitch-deck/ . Nothing here is live.
